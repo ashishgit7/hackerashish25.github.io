@@ -1,0 +1,222 @@
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+/* /////////////////////////mywork///////////////////////// */
+.mynavlinks{
+  margin-left: 25px;
+}
+
+.myul{
+    display: block;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.mylinks{
+    font-size: 25px;
+    color: #c7c6ca;
+    border-radius: 15%;
+}
+.mybg {
+    background-color: #033b72!important;
+    /* width: ; */
+}
+
+.mynav{
+    width: auto!important;
+}
+
+.mybrand{
+    color: lightseagreen;
+    font-size: 37px;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    
+    height: 15%;
+    width: 25%;
+    padding-left: 10px;
+}
+.myicon{
+    display: block;
+    position: relative;
+    right: 5%;
+    z-index: 2;
+    padding: 5px;
+    height: 15%;
+    width: 15%;
+}
+.branddiv{
+    justify-content: center;
+    text-align: center;
+}
+
+.bg::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: url("img/bg.jpg");
+    background-size: cover;
+    opacity: 0.9;
+    height:800px;
+    width: auto;
+    
+}
+
+.introsec{
+    position: relative;
+    top: 20px;
+    display: flex;
+    height:200px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.myintro{
+    color: lightskyblue;
+    position: relative;
+    top: 10%;
+}
+.myintro h1{
+    position: relative;
+    left: 11%;
+    font-family: 'Comic Neue', cursive;
+}
+.myintro h3{
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bold;
+}
+.aboutme{
+    position: relative;
+    top: 85px;
+}
+.content{
+    position: relative!important;
+    top: 31px;
+    align-items: center;
+    /* border:solid limegreen; */
+    
+    height: fit-content;
+    /* border-radius: 10%;
+    border-width: 2px; */
+}
+.myimg{
+    height: 50%;
+    width: 49%;
+    border-radius: 20%;
+    color: white;
+    box-shadow:5px 7px 7px black, 0 0 29px blue, 0 0 11px darkblue
+}
+.attribute{
+    display: flex;
+    flex-direction: column;
+}
+.plist{
+    display: flex;
+    flex-direction: row;
+}
+.plist span{
+    display: inline;
+    width: fit-content;
+    color: #98d6ea;
+    font-size: 25px;
+    font-weight: bold;
+   
+}
+.plist p{
+    color:#bae5e5;
+    display: inline;
+    font-size: 25px;
+    width: fit-content;
+    font-weight: bold;
+    padding-left: 5px;   
+}
+
+.projsec{
+    position: relative;
+    top: 238px;
+    background-color: #8f7a54;
+    margin-top: 6px;
+    padding-top: 50px;
+    height: 700px;
+}
+.headingclass{
+     font-size: 50px;
+     padding-bottom: 10px;
+     font-family: 'Lobster', cursive;
+}
+
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(2.25rem - 5px)!important;
+    border-top-right-radius: calc(2.25rem - 1px)!important;
+}
+.myproj{
+    border:solid blue!important;
+    border-radius: 10%!important;
+}
+
+.Mycontact{
+    position: relative;
+    top:235px;
+    background-color: green;
+    height: 500px;
+    width: 100%;
+}
+.mycontimg{
+    position: relative;
+    top: 20px;
+    height: 255px;
+    width: 302px;
+}
+@media (max-device-width:415px){
+
+    .container {
+        width: 80%!important;
+    }    
+    
+    .myintro h1 {
+    position: relative;
+    text-align: center;
+    left: 0%;
+    top: 66px;
+    font-family: 'Comic Neue', cursive;
+    }
+
+    .myintro h3{
+        position: relative;
+        text-align: center;
+        top: 52px;
+    }
+    .bg::before{
+        width:415px;
+        height: 1000px;
+    }
+    .imgcont{
+      position: relative;
+      top: 15px;  
+      text-align  : center;
+    }
+
+    .Mycontact{
+        position: relative;
+        top:238x;
+        height: 900px;
+        width: 415px;
+    }
+    .projsec{
+        height:1500px;
+        width:415px;
+    }
+
+    .myproj{
+        margin: 15px;
+    }
+    .mycontimg{
+        margin-top: 33px;
+    }
+}
