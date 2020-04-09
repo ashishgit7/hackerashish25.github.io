@@ -139,7 +139,7 @@
 .projsec{
     position: relative;
     top: 238px;
-    background-color: #8f7a54;
+    background-color: #548f87;
     margin-top: 6px;
     padding-top: 50px;
     height: 700px;
@@ -159,11 +159,15 @@
     border:solid blue!important;
     border-radius: 10%!important;
 }
+.myproj:hover{
+    box-shadow:5px 7px 7px black, 0 0 29px blue, 0 0 11px darkblue;
+}
+
 
 .Mycontact{
     position: relative;
     top:235px;
-    background-color: green;
+    background-color: #5e9b99;
     height: 500px;
     width: 100%;
 }
@@ -173,6 +177,16 @@
     height: 255px;
     width: 302px;
 }
+.mycontimg:hover{
+    transform: scale(1.5);
+}
+.foot{
+    position: relative;
+    bottom: -194px;
+    text-align: center;
+    z-index: 2;
+}
+
 @media (max-device-width:415px){
 
     .container {
@@ -193,26 +207,30 @@
         top: 52px;
     }
     .bg::before{
-        width:415px;
+        width:434px;
         height: 1000px;
     }
     .imgcont{
       position: relative;
       top: 15px;  
       text-align  : center;
+      left:-50px; /*jq*/
+    }
+    .content{
+        right:-200px;/*jq*/
     }
 
     .Mycontact{
         position: relative;
-        top:221px;
-        height: 900px;
-        width: 415px;
+        top:215px;
+        height: 1000px;
+        width: 434px;
     }
     .projsec{
         height:1500px;
-        width:415px;
+        width:434px;
         position: relative;
-        top: 221px;
+        top: 215px;
     }
 
     .myproj{
@@ -221,4 +239,179 @@
     .mycontimg{
         margin-top: 33px;
     }
+    .foot{
+        bottom:-175px;
+    }
+}
+
+@media (min-device-width:416px) and (max-device-width:576px)
+{
+    .container {
+        width: 80%!important;
+    }    
+    
+    .myintro h1 {
+    position: relative;
+    text-align: center;
+    left: 8%;
+    top: 66px;
+    font-family: 'Comic Neue', cursive;
+    }
+
+    .myintro h3{
+        position: relative;
+        text-align: center;
+        top: 52px;
+        left: 33px;
+    }
+    .bg::before{
+        width:624px;
+        height: 1000px;
+    }
+    .imgcont{
+      position: relative;
+      top: 15px;
+      left:50px ; 
+      text-align  : center;
+    }
+    .content{
+        left:104px;
+    }
+
+    .Mycontact{
+        position: relative;
+        top:208px;
+        height: 1016px;
+        width: 624px;
+    }
+    .projsec{
+        height:1589px;
+        width:624px;
+        position: relative;
+        top: 208px;
+    }
+
+    .myproj{
+        margin: 15px;
+    }
+    .mycontimg{
+        margin-top: 33px;
+    }
+    .foot{
+        bottom:-167px
+    }
+}
+
+@media (min-device-width:577px) and (max-device-width:767px){
+    .container {
+        width: 80%!important;
+    }    
+    
+    .myintro h1 {
+    position: relative;
+    text-align: center;
+    left: 27%;
+    top: 66px;
+    font-family: 'Comic Neue', cursive;
+    }
+
+    .myintro h3{
+        position: relative;
+        text-align: center;
+        left: 32%;
+        top: 52px;
+    }
+    .bg::before{
+        width:1087px;
+        height: 1000px;
+    }
+    .content{
+        position: relative;
+        top: -215px;
+        left: 438px;
+    }
+    .imgcont{
+      position: relative;
+      top: 15px;  
+      text-align  : center;
+    }
+    .myimg{
+        position: relative;
+        top: 57px;
+    }
+    .Mycontact{
+        position: relative;
+        top:191px;
+        height: 1000px;
+        width: 1087px;
+    }
+    .projsec{
+        height:2000px;
+        width:1087px;
+        position: relative;
+        top: 190px;
+    }
+
+    .myproj{
+        margin: 15px;
+}
+.mycontimg{
+        margin-top: 33px;
+}    
+}
+
+@media (min-device-width:768px) and (max-device-width:991px)
+{
+    
+    .container {
+        width: 80%!important;
+    }     
+    .myintro h1 {
+    position: relative;
+    text-align: center;
+    left: 0%;
+    top: 66px;
+    font-family: 'Comic Neue', cursive;
+    }
+    .myintro h3{
+        position: relative;
+        text-align: center;
+        top: 52px;
+    }
+    .bg::before{
+        width:992px;
+        height: 1000px;
+    }
+    .imgcont{
+        position: relative;
+        top: 15px;  
+        text-align  : center;
+        }
+    .myimg{
+        position: relative;
+        top: 57px;
+    }
+    .Mycontact{
+        position: relative;
+        top:191px;
+        height: 1020px;
+        width: 992px;
+    }
+    .projsec{
+        height:2000px;
+        width:992px;
+        position: relative;
+        top: 190px;
+    }
+    .myproj{
+        margin: 15px;
+    }
+    .mycontimg{
+        margin-top: 33px;
+    }
+
+    .foot{
+        bottom:-151px;
+    }
+
 }
