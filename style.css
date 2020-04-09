@@ -204,13 +204,15 @@
 
     .Mycontact{
         position: relative;
-        top:238x;
+        top:221px;
         height: 900px;
         width: 415px;
     }
     .projsec{
         height:1500px;
         width:415px;
+        position: relative;
+        top: 221px;
     }
 
     .myproj{
