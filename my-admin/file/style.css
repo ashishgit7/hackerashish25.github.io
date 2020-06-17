@@ -1,0 +1,12 @@
+*{
+    margin:0px;
+    
+}
+.HF_input{
+    display: inline!important;
+    width:30%!important;
+    margin-top:15px;
+}
+.init{
+    display: none;
+}
